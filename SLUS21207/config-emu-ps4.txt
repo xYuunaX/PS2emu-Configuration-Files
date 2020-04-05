@@ -1,0 +1,8 @@
+--gs-kernel-cl-up="up2x2skipinterp"
+--gs-optimize-30fps=1
+#Fix lines in shadows
+--host-display-mode=full
+--gs-uprender=2x2
+--gs-upscale=EdgeSmooth
+--gs-progressive=1
+--gs-force-bilinear=0
