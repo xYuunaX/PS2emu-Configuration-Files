@@ -2,42 +2,78 @@
 https://www.psdevwiki.com/ps4/PS2_Emulation
 
 Configs found in config-emu-ps2.txt:
-
+--------------------------------------------------------------------------------------------------------------------------------
+# ?
 --lua-use-pcall=1
+# ?
 --emulog-file=1
+# Graphics Synthesizer Adaptize Frameskip
 --gs-adaptive-frameskip=1
-
+# Path to Snapshots
 --path-snaps="/tmp/snapshots"
+# Patch to Recordings
 --path-recordings="/tmp/recordings"
+# Path to Virtual Memory Card
 --path-vmc="/tmp/vmc"
+# ?
 --path-emulog="/tmp/recordings"
+# Path to Config Lua?
 --config-local-lua=""
+# Load Lua Config?
 --load-tooling-lua=0
+# Path to Patches
 --path-patches="/app0/patches"
+# Path to Trophies
 --path-trophydata="/app0/trophy_data"
+# Path to feature_data
 --path-featuredata="/app0/feature_data"
+# ?
 --path-toolingscript="/app0/patches"
+# PS2 Title ID
 --ps2-title-id=SLUS-20911
+# numbers of discs in package (maximum=5)
 --max-disc-num=1
+# ?
 --playgo-disc-per-chunk=0
+# Trophy Support
 --trophy-support=0
---gs-uprender=none (none, 2x2)
+# Graphics Synthesizer Rendering upscaler (none, 2x2)
+--gs-uprender=none 
+# Graphics Synthesizer ?
 --gs-upscale=point (none, gpu, edgesmooth, motionvec, point)
+
 --pad-record=0
+
 --host-audio=1
+
 --rom="PS20220WD20050620.crack"
+
 --ps2-lang=system
+
 --verbose-cdvd-reads=0
+
 --host-osd=0
+
 --host-display-mode=full
+
 --fpu-no-clamping=1
+
 --ee-jit-pagefault-threshold=30
+
 --force-frame-blend=1
+
 --mtap1=always
+
 --gs-use-deferred-l2h=0
+
 --l2h-2d-params=0x0000000400000004,0x00000000300a0000,240
+
 --vu1-di-bits=0
+
 --vu1-opt-vf00=2
+
 --gs-kernel-cl-up="up2x2skipinterp"
+
 --gs-optimize-30fps=1
+
 --host-audio-latency=0.01
